@@ -1,119 +1,152 @@
-
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
 <meta charset="utf-8">
-<title>Shay Shalem</title>
-<!-- Sets viewport to the device screen size -->
+<title>Shay Shalem - Actress</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<!--Link an external style sheet-->
-<link href="css/styles.css" rel="stylesheet">
-
+<link href="style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
-<!-- body -->
 <body>
+
+<!-- Navigation -->
+<nav class="main-nav">
+    <div class="nav-content">
+        <div class="logo">Shay Shalem</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#headshots">Headshots</a>
+            <a href="#reel">Reel</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="social-links">
+            <a href="https://www.instagram.com/shay_shalem/" aria-label="Instagram">
+                <img src="assets/IG.png" alt="Instagram">
+            </a>
+            <a href="https://www.youtube.com/watch?v=SCoAPo8c8oI&list=PLdkzw7NZPIU7gA_6SopJ99z2sltOHZQi7&index=10" aria-label="YouTube">
+                <img src="assets/youtube.png" alt="YouTube">
+            </a>
+        </div>
+    </div>
+</nav>
+
 <main>
-<section>
-<header>
-<div id="top">
-	<!-- 
-<h2> 
-		Shay Shalem
-	</h2>
- -->
-	<div id="social">
-		<a href="https://www.instagram.com/shay_shalem/">
-			<img id="ig" src="IG.png" alt="IG">
-		</a>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-image">
+            <img src="assets/one.JPG" alt="Shay Shalem">
+        </div>
+        <div class="hero-text hero-text-bottom-right">
+            <h1 class="hero-title">
+                <span class="line">Shay</span>
+                <span class="line">Shalem</span>
+            </h1>
+            <p class="hero-subtitle">Actress · Writer · Director</p>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
 
-		<a href="https://www.youtube.com/watch?v=SCoAPo8c8oI&list=PLdkzw7NZPIU7gA_6SopJ99z2sltOHZQi7&index=10">
-			<img id="you" src="youtube.png" alt="YT">
-		</a>
-	</div>
-</div>
-<img id="me" src="one.JPG" alt="me"><h1> 
-Shay Shalem
-</h1>
-</header>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Who Am I?</h2>
+                    <div class="text-content">
+                        <p>I am an actress from Israel, currently a Drama student on the Dean's List, majoring in the Dramatic Arts with a double minor in Creative Code and Data Visualization at The New School University in NYC.</p>
+                        
+                        <p>I am starring in the Israeli TV children's show <em>"HAKALMARIM"</em> for two seasons. I am a writer and director as well. I wrote, directed and played in the play <em>"Daddy's Word"</em> which was presented at Bat Yam City Festival.</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <figure>
+                        <img src="assets/P2.JPEG" alt="Shay Shalem portrait">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div id="who">
-<article>
-<h2>
-  <em>Who Am I?</em>
-  </h2>
-<p>
-I am an actress from Israel.
-Currently a Drama student on the Dean’s List,
-Majoring in the Dramatic Arts and Double Minor in
-Creative Code and Data Visualization,
-at The New School University in NYC.
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <div class="section-container">
+            <h2 class="section-title centered">Resume</h2>
+            <div class="resume-wrapper">
+                <figure class="resume-figure">
+                    <img src="assets/Shays%20resume.png" alt="Shay Shalem Resume">
+                </figure>
+            </div>
+        </div>
+    </section>
 
-<p>
-I am staring  in the Israeli TV children show
-<em>“HAKALMARIM”</em> for two seasons.
-I am a writer and director as well.
-I worte, directed and played
-in the play <em>“Daddy’s Word</em>”
-which presented in Bat Yam City Festival.
-</article>
-<figure style= "width: 80%">
-<img src="P2.JPEG" alt="Me" >
-</figure>
-</div>
-<article id="resume">
-<h2>
-  <em>Resume</em>
-</h2>
-<figure>
-<img class="resumeResize" src="Shays resume.png" alt="My Resume" >
-  </figure>
-</article>
+    <!-- Headshots Section -->
+    <section id="headshots" class="headshots-section">
+        <div class="section-container">
+            <h2 class="section-title centered">Headshots</h2>
+            <div class="headshots-grid">
+                <figure class="headshot-item featured">
+                    <img src="assets/One.JPG" alt="Shay Shalem headshot">
+                </figure>
+                <figure class="headshot-item">
+                    <img src="assets/Two.JPG" alt="Shay Shalem headshot">
+                </figure>
+                <figure class="headshot-item">
+                    <img src="assets/Six.JPEG" alt="Shay Shalem headshot">
+                </figure>
+                <figure class="headshot-item full-width">
+                    <img src="assets/Nine.JPG" alt="Shay Shalem headshot">
+                </figure>
+            </div>
+        </div>
+    </section>
 
+    <!-- Reel Section -->
+    <section id="reel" class="reel-section">
+        <div class="section-container">
+            <h2 class="section-title centered">Reel</h2>
+            <div class="reel-wrapper">
+                <figure class="reel-figure">
+                    <a href="https://www.youtube.com/watch?v=N4B8RSRn-9s/" class="reel-link">
+                        <img src="assets/K.png" alt="View acting reel">
+                        <div class="play-overlay">
+                            <div class="play-button">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </section>
 
-<h2>
-  <em>Headshots</em>
-</h2>
-<article id="headshots">
-<figure>
-<img src="One.JPG" alt="Me" >
-</figure>
-
-<figure >
-<img src="Two.JPG" alt="Me" >
-</figure>
-
-<figure >
-<img src="Six.JPEG" alt="Me" >
-</figure>
-
-<figure >
-<img src="Nine.JPG" alt="Me">
-</figure>
-</article>
-
-
-<article>
-<h2>
-  <em>Reel</em>
-</h2>
-<figure>
-<a href="https://www.youtube.com/watch?v=N4B8RSRn-9s/">
-<img src="K.png" alt="Me">
-</a>
-</figure>
-</article>
-<footer><p> 
-<strong> Personal Agent </strong>
-Sarit & Lorens Talent Agency
-SandLagency@gmail.com
-<p> 
-<strong> My contact</strong>
-shay.shalem@icloud.com
-+1-347-776-2846
-</footer>
-</section>
-
-
+    <!-- Contact Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Personal Agent</h3>
+                <p class="agency-name">Sarit & Lorens Talent Agency</p>
+                <a href="mailto:SandLagency@gmail.com">SandLagency@gmail.com</a>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-section">
+                <h3>Direct Contact</h3>
+                <a href="mailto:shay.shalem@icloud.com">shay.shalem@icloud.com</a>
+                <a href="tel:+13477762846">+1 347-776-2846</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Shay Shalem. All rights reserved.</p>
+        </div>
+    </footer>
 </main>
+
 </body>
 </html>

@@ -254,10 +254,10 @@ em {
     opacity: 0.95;
 }
 
-.scroll-indicator {
+/* .scroll-indicator {
     position: absolute;
     bottom: 5vh;
-    left: 50%;
+    left: 5%;
     transform: translateX(-50%);
     z-index: 2;
     display: flex;
@@ -287,7 +287,7 @@ em {
         opacity: 1;
         transform: scaleY(1.2);
     }
-}
+} */
 
 /* ==========================================================================
    Section Layouts

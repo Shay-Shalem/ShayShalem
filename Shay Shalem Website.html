@@ -1,0 +1,175 @@
+<!-- When you want to push your code: 
+Open terminal and run:
+
+cd your project path
+
+git init
+git add .
+git commit -m "your message"
+git push origin main 
+Cmd + Shift + R // in case it doesnt update the css or html right away
+-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<meta charset="utf-8">
+<title>Shay Shalem - Actress</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="main-nav">
+    <div class="nav-content">
+        <div class="logo">Shay Shalem</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#headshots">Headshots</a>
+            <a href="#reel">Reel</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="social-links">
+            <a href="https://www.instagram.com/shay_shalem/" aria-label="Instagram">
+                <img src="assets/IG.png" alt="Instagram">
+            </a>
+            <a href="https://www.youtube.com/watch?v=SCoAPo8c8oI&list=PLdkzw7NZPIU7gA_6SopJ99z2sltOHZQi7&index=10" aria-label="YouTube">
+                <img src="assets/youtube.png" alt="YouTube">
+            </a>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-image">
+            <img src="assets/one.JPG" alt="Shay Shalem">
+        </div>
+        <div class="hero-text hero-text-bottom-right">
+            <h1 class="hero-title">
+                <span class="line">Shay</span>
+                <span class="line">Shalem</span>
+            </h1>
+            <p class="hero-subtitle">Actress · Writer · Director</p>
+        </div>
+        <!-- <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div> -->
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Who Am I?</h2>
+                    <div class="text-content">
+
+                        <p>I’m an Israeli actress, director, and writer based in New York City, currently earning my BFA in Dramatic Arts at The New School (with a double minor in Creative Code and Data Visualization- because art and logic can flirt too).</p>
+
+                        <p>I produced and directed my original play <em>"Daddy's Word"</em> in NYC at The Tank Theater (Off-Broadway), and later in Israel. The piece grew out of my fascination with how the words we grow up with can shape us, bruise us, and sometimes wake us up.</p>
+                        
+                        <p>My work as both a writer and performer has also been presented at AMT Theater (Off-Broadway) as part of The Circle Festival, and with RJT Theatre Company.</p>
+                        
+                        <p>On screen, you might have seen me in two seasons of the Israeli TV series <em>"HAKALMARIM"</em>, in <em>"See You in the Round"</em>, or in <em>"Sesame Street"</em>- my very first TV show.</p>
+                        
+                        <p>On stage, I performed in <em>"The Seven Ravens"</em> at The New Victory Theater (Off-Broadway), and adapted Etgar Keret’s short story <em>"Siren"</em>, which was presented at the Bat Yam City Festival in Israel.</p>
+                        
+                        <p>I am currently starring in <em>"Anemone"</em>, presented at The Bank Street Theater in the West Village as part of The APEX Festival.</p>                    </div>
+                </div>
+                <div class="about-image">
+                    <figure>
+                        <img src="assets/AR.JPEG" alt="Shay Shalem portrait">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <div class="section-container">
+            <h2 class="section-title centered">Resume</h2>
+            <div class="resume-wrapper">
+                <figure class="resume-figure">
+                    <img src="assets/Shays%20resume.png" alt="Shay Shalem Resume">
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Headshots Section -->
+    <section id="headshots" class="headshots-section">
+        <div class="section-container">
+            <h2 class="section-title centered">Headshots</h2>
+            <div class="headshots-grid">
+                <figure class="headshot-item featured">
+                    <img src="assets/Two.JPG" alt="Shay Shalem headshot">
+                </figure>
+                <figure class="headshot-item">
+                    <img src="assets/Eight.JPEG" alt="Shay Shalem headshot">
+                </figure>
+                <figure class="headshot-item">
+                    <img src="assets/seven.JPG" alt="Shay Shalem headshot">
+                </figure>
+                <figure class="headshot-item full-width">
+                    <img src="assets/21.JPEG" alt="Shay Shalem headshot">
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reel Section -->
+    <section id="reel" class="reel-section">
+        <div class="section-container">
+            <h2 class="section-title centered">Reel</h2>
+            <div class="reel-wrapper">
+                <figure class="reel-figure">
+                    <a href="https://www.youtube.com/watch?v=N4B8RSRn-9s/" class="reel-link">
+                        <img src="assets/K.png" alt="View acting reel">
+                        <div class="play-overlay">
+                            <div class="play-button">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Personal Agent</h3>
+                <p class="agency-name">Sarit & Lorens Talent Agency</p>
+                <a href="mailto:SandLagency@gmail.com">SandLagency@gmail.com</a>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-section">
+                <h3>Direct Contact</h3>
+                <a href="mailto:shay.shalem@icloud.com">shay.shalem@icloud.com</a>
+                <a href="tel:+13477762846">+1 347-776-2846</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Shay Shalem. All rights reserved.</p>
+        </div>
+    </footer>
+</main>
+
+</body>
+</html>

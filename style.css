@@ -175,6 +175,7 @@ em {
     justify-content: center;
     overflow: hidden;
     margin-top: 0;
+    padding-top: 80px;
 }
 
 .hero-image {
@@ -238,7 +239,7 @@ em {
     margin: 0;
     display: flex;
     flex-direction: column;
-    line-height: 0.9;
+    line-height: 0.985;
 }
 
 .hero-title .line {

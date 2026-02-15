@@ -175,7 +175,8 @@ em {
     justify-content: center;
     overflow: hidden;
     margin-top: 0;
-    padding-top: 80px;
+    margin-top: 2rem;
+
 }
 
 .hero-image {
